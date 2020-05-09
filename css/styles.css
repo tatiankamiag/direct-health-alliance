@@ -1,0 +1,130 @@
+body {
+  /*font-family: "Montserrat";*/
+  text-align: center;
+  padding-top: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: "Montserrat-Bold";*/
+  color: #000000;
+  /*font-weight: 700;*/
+}
+
+p {
+  color: #333333;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #a1c4a1;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  /*padding: 0 0 4.5rem;*/
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 11px 5px;
+}
+
+.nav-link {
+  font-size: .8rem;
+  /*font-family: "Montserrat-light";*/
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/grass.png");*/
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/doctor.jpg");
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.jumbotron p {
+  color: #ffffff;
+}
+
+/*.jumbotron h1,h2,h3,h4,h5,h6 {
+  color: #ffffff;
+}*/
+.jumbotron-about {
+  background-image: url("../images/grassland.png");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.form-control:focus {
+  outline: 0 !important;
+  border-color: initial;
+  box-shadow: none;
+}
